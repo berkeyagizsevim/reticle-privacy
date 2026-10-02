@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reticle - Privacy Policy</title>
+<style>
+  :root { --accent:#8B5CF6; --bg:#0D0E12; --surface:rgba(255,255,255,0.05); --border:rgba(255,255,255,0.08); --text:#FFFFFF; --text-secondary:#9CA3AF; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:720px; margin:0 auto; padding:64px 24px 96px; }
+  .badge { display:inline-flex; align-items:center; gap:8px; background:rgba(139,92,246,0.15); color:var(--accent); border:1px solid rgba(139,92,246,0.3); border-radius:999px; padding:6px 14px; font-size:13px; font-weight:600; }
+  h1 { font-size:34px; font-weight:700; margin:20px 0 8px; letter-spacing:-0.02em; }
+  .updated { color:var(--text-secondary); font-size:14px; margin-bottom:24px; }
+  nav { margin-bottom:32px; font-size:14px; }
+  nav a { margin-right:16px; }
+  .card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:24px 28px; margin-bottom:20px; }
+  .card h2 { font-size:18px; font-weight:600; margin:0 0 10px; display:flex; align-items:center; gap:10px; }
+  .card p, .card li { color:#E5E7EB; font-size:15px; margin:0 0 8px; }
+  .card ul, .card ol { margin:8px 0 0; padding-left:20px; }
+  .icon-dot { width:8px; height:8px; border-radius:50%; background:var(--accent); flex-shrink:0; }
+  .highlight { color:var(--accent); font-weight:600; }
+  .lang { margin-top:56px; padding-top:32px; border-top:1px solid var(--border); }
+  img.app { width:72px; height:72px; border-radius:16px; display:block; margin-bottom:16px; }
+  footer { margin-top:48px; padding-top:24px; border-top:1px solid var(--border); color:var(--text-secondary); font-size:13px; text-align:center; }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">Zero data collection</span>
+  <h1>Reticle Privacy Policy</h1>
+  <div class="updated">Last updated: 2 October 2026</div>
+  <nav><a href="index.html">Reticle</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Summary</h2>
+    <p>Reticle is a macOS menu bar app that shows your latest screenshots so you can drag or paste them anywhere. Reticle <span class="highlight">does not collect, store, share or sell any personal data</span>. Everything happens on your Mac.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Data collected</h2>
+    <p>None. Reticle has no accounts, analytics, advertising identifiers or tracking, and no third-party SDKs.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Your files</h2>
+    <p>Reticle reads image files only from the folder you choose through the standard macOS open panel (a security-scoped, read-only permission). Files never leave your Mac. When you paste, the image is placed on your clipboard and the previous clipboard contents are restored afterwards.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Local storage</h2>
+    <p>A few settings are kept on your Mac with Apple's standard <code>UserDefaults</code>: the chosen folder, the trial start date and your purchase status. They are removed when you delete the app.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>In-App Purchase (Pro)</h2>
+    <p>Browsing, drag and drop and the automatic popup are free. The paste actions are unlocked by a one-time in-app purchase handled entirely by <span class='highlight'>Apple's App Store (StoreKit)</span>. Your payment details go to Apple, never to Reticle. Your device contacts Apple's servers for this; it is part of the App Store purchase system, not a connection Reticle opens itself.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Network access</h2>
+    <p>Apart from the App Store purchase flow described above, Reticle makes no network connections.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Permissions</h2>
+    <p>Reticle runs in the Apple App Sandbox and asks only for what it needs:</p><ul><li>Read-only access to the folder you choose.</li><li>Accessibility, only if you grant it, solely to send the paste keystroke (Cmd+V) to the app you select. Reticle does not read other apps' content.</li></ul><p>It does not request location, camera, microphone, contacts or photos.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Children's privacy</h2>
+    <p>Reticle does not knowingly collect data from anyone, including children, because it collects no data at all.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Changes to this policy</h2>
+    <p>If this policy changes, the update will be published here and the date above will be refreshed.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Contact</h2>
+    <p><a href="mailto:support@sparkup.studio">support@sparkup.studio</a> &middot; Sparkup Studio</p>
+  </div>
+  <footer>&copy; 2026 Sparkup Studio. All rights reserved. &middot; <a href="mailto:support@sparkup.studio">support@sparkup.studio</a></footer>
+</div>
+</body>
+</html>

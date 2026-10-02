@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reticle - Support</title>
+<style>
+  :root { --accent:#8B5CF6; --bg:#0D0E12; --surface:rgba(255,255,255,0.05); --border:rgba(255,255,255,0.08); --text:#FFFFFF; --text-secondary:#9CA3AF; }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif; line-height:1.6; }
+  .wrap { max-width:720px; margin:0 auto; padding:64px 24px 96px; }
+  .badge { display:inline-flex; align-items:center; gap:8px; background:rgba(139,92,246,0.15); color:var(--accent); border:1px solid rgba(139,92,246,0.3); border-radius:999px; padding:6px 14px; font-size:13px; font-weight:600; }
+  h1 { font-size:34px; font-weight:700; margin:20px 0 8px; letter-spacing:-0.02em; }
+  .updated { color:var(--text-secondary); font-size:14px; margin-bottom:24px; }
+  nav { margin-bottom:32px; font-size:14px; }
+  nav a { margin-right:16px; }
+  .card { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:24px 28px; margin-bottom:20px; }
+  .card h2 { font-size:18px; font-weight:600; margin:0 0 10px; display:flex; align-items:center; gap:10px; }
+  .card p, .card li { color:#E5E7EB; font-size:15px; margin:0 0 8px; }
+  .card ul, .card ol { margin:8px 0 0; padding-left:20px; }
+  .icon-dot { width:8px; height:8px; border-radius:50%; background:var(--accent); flex-shrink:0; }
+  .highlight { color:var(--accent); font-weight:600; }
+  .lang { margin-top:56px; padding-top:32px; border-top:1px solid var(--border); }
+  img.app { width:72px; height:72px; border-radius:16px; display:block; margin-bottom:16px; }
+  footer { margin-top:48px; padding-top:24px; border-top:1px solid var(--border); color:var(--text-secondary); font-size:13px; text-align:center; }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">Support</span>
+  <h1>Reticle Support</h1>
+  <div class="updated">Last updated: 2 October 2026</div>
+  <nav><a href="index.html">Reticle</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Contact</h2>
+    <p>Questions, bugs or ideas? Write to <a href="mailto:support@sparkup.studio">support@sparkup.studio</a>. In the app you can also right-click the menu bar icon and choose <span class="highlight">Give Feedback…</span> or <span class="highlight">Report a Bug…</span>.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Getting started</h2>
+    <ol><li>Click the Reticle icon in the menu bar and choose the folder where macOS saves your screenshots (usually the Desktop).</li><li>Take a screenshot (Cmd+Shift+4). It appears in the tray, and the tray opens by itself.</li><li>Drag it into any app, or select it and use <span class='highlight'>Paste to Selected App</span> (Pro).</li></ol>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Granting Accessibility access</h2>
+    <p>The paste buttons send a Cmd+V keystroke to the app you chose, which needs the macOS Accessibility permission. Because Reticle is sandboxed, macOS does not show its usual prompt, so you add the app yourself, once:</p><ol><li>Click <span class='highlight'>Grant Access</span> in the Reticle popover. System Settings opens at Privacy &amp; Security &gt; Accessibility, and Reticle is highlighted in Finder.</li><li>In Settings click <span class='highlight'>+</span>, choose Reticle (or drag it in), and switch it on.</li><li>Click <span class='highlight'>Relaunch Reticle</span> in the popover.</li></ol><p>Drag and drop works without this permission.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Restoring a purchase</h2>
+    <p>Right-click the menu bar icon and choose <span class='highlight'>Restore Purchases</span> (it is also on the locked card in the popover). Purchases are tied to your Apple ID.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Free trial</h2>
+    <p>Pro includes a 14-day free trial. After that, a one-time purchase unlocks the paste actions. Browsing, drag and drop and the automatic popup stay free.</p>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Known limitations</h2>
+    <ul><li>Reticle pastes into the last active window of the app you choose; macOS does not let a sandboxed app pick a specific window of another app.</li><li>Reticle reads images only from the folder you choose (PNG, JPG, HEIC, TIFF). To change it, right-click the menu bar icon &gt; <span class='highlight'>Change Screenshots Folder…</span></li></ul>
+  </div>
+  <div class="card">
+    <h2><span class="icon-dot"></span>Privacy</h2>
+    <p>Reticle collects no data. See the <a href="privacy.html">privacy policy</a>.</p>
+  </div>
+  <footer>&copy; 2026 Sparkup Studio. All rights reserved. &middot; <a href="mailto:support@sparkup.studio">support@sparkup.studio</a></footer>
+</div>
+</body>
+</html>
